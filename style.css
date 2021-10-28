@@ -1,0 +1,399 @@
+
+/*bronnen
+https://nourished.nl/
+https://intagrate.io/2020/08/how-to-embed-an-instagram-feed-into-any-website/
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+*/
+
+/*vragen
+1. insta hoe het beste?
+2. 
+*/
+
+body {
+    background-color: #f7f0e4;
+}
+header{
+    position:relative;
+    width: 100%;
+    height:50%;
+    margin-bottom: 2em;
+}
+main img{
+    max-width: 30em;
+    max-height: auto;
+}
+
+
+h2 {
+    font-family: Lora,Georgia,Times New Roman,serif;
+    font-size: 1,5em;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 1,5em;
+    color:#545353;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#545353;
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color:#545353;
+}
+
+a:visited{
+    color: #ce423b;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*nav*/
+nav{
+    height:4em;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f7f0e4;
+}
+
+nav a{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin:1.5em 1em 1em 1em;
+    color:white;
+}
+nav a:hover{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin:1.5em 1em 1em 1em;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:#545353;
+}
+
+
+ /* header*/
+header article {
+    position: relative;
+    /*visibility: hidden;*/
+}
+
+
+
+
+header  article  img{
+    width: 100%;
+    height: 40em;
+    /*visibility: hidden;*/
+}
+
+header h2{
+    color: white;
+    position: absolute;
+    left: 5em;
+    bottom: 8em;
+    font-family: Lora,Georgia,Times New Roman,serif;
+    font-size: 1,5em;
+
+}
+
+header a{
+    color: white;
+    position: absolute;
+    left: 7em;
+    bottom: 8em;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: #ce423b;
+    padding: 1em 4em 1em 4em;
+
+}
+header a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+
+header a:visited{
+    color: white;
+
+}
+
+header article:last-of-type{
+    position:absolute;
+    left:45%;
+    bottom:1.5em;
+
+}
+.punt {
+    display: inline-block;
+    cursor: pointer;
+    margin:0 0.5em;
+    height: 0.8em;
+    width: 0.8em;
+    background-color: #ce423b;
+    border-radius: 50%;
+  }
+  
+
+  .punt:hover {
+    height:1em;
+    width: 1em;
+
+  }  
+
+/*main*/
+
+main {
+    position: relative;
+    left:0;
+    bottom: 1em;
+    width: 100%;
+    height: auto;
+}
+
+/* 1e sectie*/
+
+main section:first-of-type {
+    position:relative;
+    top: 5em;
+    left:40em;
+    width:60%;
+    height: 40em;
+    bottom: 0;
+}
+
+main section:first-of-type img{
+    position:absolute;
+    right:0;
+    top:0;
+    width:auto;
+    height: 40em;
+}
+main section:first-of-type h1{
+  visibility: hidden;
+}
+
+main section:first-of-type h2{
+    position:absolute;
+    right:20em;
+    bottom:13em;
+    width:40%;
+    text-align: right;
+}
+
+main section:first-of-type p{
+    position:absolute;
+    right:30em;
+    bottom:10em;
+    width: 45%;
+    text-align: right;
+    line-height: 2em;
+}
+main section:first-of-type a{
+    position:absolute;
+    right:30em;
+    bottom:9em;
+    text-align: right;
+}
+
+
+
+/* 2e sectie*/
+
+main section:nth-of-type(2) {
+    position:relative;
+    display: flex;
+    justify-content: start;
+    top:2em;
+    width:80%;
+    height:30em;
+    background-color: white;
+}
+
+main section:nth-of-type(2) article {
+    position:relative;
+    top:2em;
+    padding: 1em;
+    width:80%;
+    height:25em;
+}
+
+
+
+main section:nth-of-type(2) article h3 {
+    position:absolute;
+    font-family: sans-serif;
+    font-size: 1em;
+    top:16em;
+    max-width: 15em;
+    
+   
+}
+
+main section:nth-of-type(2) article img {
+    position:absolute;
+    width:auto;
+    height:50%;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(1) {
+    position:absolute;
+    font-family: sans-serif;
+    bottom:2.5em;
+    font-weight: 200;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(2) {
+    position:absolute;
+    font-family: sans-serif;
+    bottom:0em;
+    font-weight: 800;
+    
+}
+
+main section:nth-of-type(2) h2 {
+    position: absolute;
+    right:2em;
+    text-align: right;
+    width:80%;
+    height:auto;
+}
+
+
+
+
+/* 3e sectie*/
+/* top - right - bottom - left*/
+
+main section:nth-of-type(3) {
+    position:relative;
+    display: flex;
+    justify-content: start;
+    top: 5em;
+    left: 10em;
+    width: 90%;
+    height: 55em;
+    bottom: 0;
+}
+
+main section:nth-of-type(3) h2 {
+    position: absolute;
+    left:1em;
+    text-align: left;
+    width:80%;
+    height:auto;
+}
+
+main section:nth-of-type(3) article{
+    position:relative;
+    top:3em;
+    left:0em;
+    right:2em;
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    width:22%;
+    height:50em;
+}
+
+main section:nth-of-type(3) img{
+    position:absolute;
+    width:100%;
+    height:70%;
+
+}
+
+main section:nth-of-type(3) article h3 {
+    position:absolute;
+    font-weight: 200;
+    font-size: 1em;
+    bottom:10em;
+    max-width: 15em;
+}
+
+main section:nth-of-type(3) article p {
+    position:absolute;
+    font-weight: 600;
+    font-size: 1em;
+    bottom: 7em;
+    max-width: 100%;
+}
+
+main section:nth-of-type(3) a{
+    position:absolute;
+    bottom: 5em;
+    text-align: right;
+}
+
+/*4e sectie*/
+
+/*
+background:#FFF; 
+border:0; border-radius:3px; 
+box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); 
+margin: 1px; 
+max-width:540px; 
+min-width:326px; 
+padding:0; 
+width:99.375%; 
+width:-webkit-calc(100% - 2px); 
+width:calc(100% - 2px);
+*/
+main section:nth-of-type(4) {
+    position:relative;
+    display: flex;
+    justify-content: start;
+    top: 5em;
+    left: 10em;
+    width: 90%;
+    height: 65em;
+    bottom: 0;
+}
+
+main section:nth-of-type(4) h2 {
+    position: absolute;
+    left:1em;
+    text-align: left;
+    width:80%;
+    height:auto;
+}
+
+main section:nth-of-type(4) article{
+    position:relative;
+    top:3em;
+    left:0em;
+    right:2em;
+    margin: 0 1em 0 1em;
+    padding: 1em;
+    width:22%;
+    height:50em;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    left:0;
+    top:2em;
+    bottom: 1em;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
