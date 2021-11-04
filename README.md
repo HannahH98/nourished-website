@@ -39,12 +39,14 @@ hier je focus (kies uit responsive óf surface plane)
 <a href="http://nourished.nl">Nourished</a>
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/pagina1-home.png" width="375px" alt="omschrijving van de pagina">
+Home
+<img src="images/pagina1-home.png" width="375px" alt="home voorbeeld">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/pagina2-shopm.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/p2-shop1.png" width="375px" alt="shop voorbeeld 1">
+<img src="images/p2-shop2.png" width="375px" alt="shop voorbeeld 2">
+<img src="images/p2-shop3.png" width="375px" alt="shop voorbeeld 3">
  
 </details>
 
@@ -58,13 +60,9 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/breakdown-home.png" width="375px" alt="breakdown van de home">
+<img src="images/breakdown-shop1.png" width="375px" alt="breakdown van de shop bovenste stuk">
+<img src="images/breakdown-shop2.png" width="375px" alt="breakdown van de shop lager stuk">
 
 </details>
 
@@ -78,26 +76,11 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Hier was ik begonnen met de HTML. Ik had de afbeeldingen die ik wilde gebruiken opgeslagen en verwerkt in de HTML
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Ik had hier weinig feedback, volgens mijn groep genootjes zag het er goed uit. 
 
 </details>
 
@@ -111,26 +94,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+N.V.T
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+N.V.T
 
 </details>
 
@@ -144,30 +112,20 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+N.V.T
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+N.V.T
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+N.V.T
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+N.V.T
 
 #### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+N.V.T
 
 </details>
 
@@ -214,11 +172,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik was hier nog niet heel ver, ik had een pagina redelijk ver in HTML en CSS alleen nog niks in JS. De 2e pagina had ik niet. 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
+<img src="images/home1-ss.png" width="375px" alt="home screenshot 1">
+<img src="images/home2-ss.png" width="375px" alt="home screenshot 1">
+<img src="images/shop1-ss.png" width="375px" alt="home screenshot 1">
+<img src="images/shop2-ss.png" width="375px" alt="home screenshot 1">
 
 </details>
 
@@ -231,10 +190,11 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+1. https://nourished.nl/
+2. https://intagrate.io/2020/08/how-to-embed-an-instagram-feed-into-any-website/
+3. https://www.w3schools.com/howto/howto_js_slideshow.asp
+4. https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3
+5. https://codepen.io/chrisjonesio/pen/OmzXdd
 
-1. bron 1
-2. bron 2
-3. ...
 
 </details>
