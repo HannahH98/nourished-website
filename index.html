@@ -5,28 +5,45 @@
     <meta charset="utf-8">
     <title>Nourished</title>
     <link rel="stylesheet" href="style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
+    <section class="melding">
+        <p>Toch wel ver gekomen :)</p>
+    </section>
     <nav>
-         <img src="images/nourished-logo.png" alt="logo nourished" >
-        <!-- zet het hamburger menu in een button, zet een link in de logo.-->
-        <!-- hamburger menu -->
-            <a href="index.html">Shop</a>
-            <a href="index.html">Wishlist</a>
-            <a href="index.html">Over Ons</a>
-            <a href="index.html">Journal</a>
-            <a href="index.html">Friends Of Nourished</a>
-
-        
-            <a href="index.html">Login</a>
-            <a href="index.html">Sign Up</a>
-    
-        <!-- logo -->
-    
+        <div class="burgermenu">
+            <span class="burgermenu-stokkie"></span>
+            <span class="burgermenu-stokkie"></span>
+            <span class="burgermenu-stokkie"></span>
+        </div>
         
 
 
+        <img src="images/nourished-logo.png" alt="logo nourished">
+
+       <!-- logo -->
+       <p id="shop"> Shop</p>
+       <!--overgenomen van nourished-->
+       <div class="winkelmandjegeheel">
+            <svg id="winkelmandje" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs>
+                    <path d="M5,16 C6.1045695,16 7,15.1045695 7,14 C7,12.8954305 6.1045695,12 5,12 C3.8954305,12 3,12.8954305 3,14 C3,15.1045695 3.8954305,16 5,16 Z M15,16 C16.1045695,16 17,15.1045695 17,14 C17,12.8954305 16.1045695,12 15,12 C13.8954305,12 13,12.8954305 13,14 C13,15.1045695 13.8954305,16 15,16 Z M4,2 L2,2 L2,0 L5,0 C5.55228475,0 6,0.44771525 6,1 L6,2 L17,2 C17.6643789,2 18.1440429,2.63590492 17.9615239,3.27472113 L15.9615239,10.2747211 C15.8388664,10.7040227 15.4464804,11 15,11 L5,11 C4.44771525,11 4,10.5522847 4,10 L4,2 Z M6,9 L14.2456986,9 L15.67427,4 L6,4 L6,9 Z" id="path-1"></path>
+                </defs>
+                <g >
+                    <g transform="translate(-2.000000, 0.000000)">
+                        <use fill="#333333" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </svg>
+            <div class="inwinkelmand mandhidden"><p> 1 </p></div>
+        </div>
     </nav>
     
     <header>
@@ -35,44 +52,15 @@
                 <h2>
                     Dame's checklijst voor seksuele gezondheid
                 </h2>
-                <a href="index.html">Lees meer</a>
+                <a href="#">Lees meer</a>
         </article>
-        <!--
-        <article>
-                <img src="images/journal/hetplezierenvoordeel.png">
-                <h2>
-                    Het plezier & voordeel van het gebruik van een natuurlijk, biologisch glijmiddel
-                </h2>
-                <a>Lees meer</a>
-        </article>
-        <article>
-                <img src="images/journal/dameschecklijstvoorseksuelegezondheid.png">
-                <h2>
-                    Dame's checklijst voor seksuele gezondheid
-                </h2>
-                <a>Lees meer</a>
-        </article>
-        <article>
-                <img src="images/journal/waaromzoujevoorecofriendlymenstruatie.png">
-                <h2>
-                    Waarom zou je voor Eco-Friendly Menstruatie Producten Kiezen? Jouw Lichaam. Onze Planeet. 
-                </h2>
-                <a>Lees meer</a>
-        </article>
-        <article>
-                <img src="images/journal/redmijnzomertan.png">
-                <h2>
-                    Red Mijn Zomer Tan!
-                </h2>
-                <a>Lees meer</a>
-         </article>
-         -->
+       
          <article>
-            <span class="punt" onclick="huidigeSlide(1)"></span> 
-            <span class="punt" onclick="huidigeSlide(2)"></span> 
-            <span class="punt" onclick="huidigeSlide(3)"></span> 
-            <span class="punt" onclick="huidigeSlide(4)"></span> 
-            <span class="punt" onclick="huidigeSlide(5)"></span> 
+            <span class="punt"></span> 
+            <span class="punt"></span> 
+            <span class="punt"></span> 
+            <span class="punt"></span> 
+            <span class="punt"></span> 
          </article>
          
     </header>
@@ -90,64 +78,67 @@
                     Auteur, dichter, moeder en influencer Lois Kruidenier spreekt over eerlijkheid in haar schrijven en haar leven, de dualiteit van moederschap en sensuele vrouwelijkheid en hoe zij liefhebster van clean-beauty is geworden.
                 </p>
 
-                <a href="index.html"> Read more</a>
+                <a href="#"> Read more</a>
         </section>
 
         <section>
             <h2>Gerelateerde artikelen</h2>
-            <article>
+            <article class="carousel-gerelateerd visible-gerelateerd">
                 <img src="images/home/gerelateerde-slide1.png" alt="foto van tube, havermelk foundation">
                 <h3>Havermelk Foundation - Caramel</h3>
                 <p>Ere Perez</p>
                 <p>&euro;38,50</p>
-            
             </article>
-            <article>
+            <article class="carousel-gerelateerd">
                 <img src="images/home/gerelateerde-slide2.png" alt="foto van flesje met pipet, quandong green booster serum">
                 <h3>Quandong Green Booster Serum</h3>
                 <p>Ere Perez</p>
                 <p>&euro;36,00</p>
             </article>
-            <article>
+            <article class="carousel-gerelateerd">
                 <img src="images/home/gerelateerde-slide3.png" alt="foto van tube, moringa all beauty cream">
                 <h3>Moringa All Beauty Cream</h3>
                 <p>Ere Perez</p>
                 <p>&euro;36,00</p>
             </article>
-            <article>
+            <article class="carousel-gerelateerd">
                 <img src="images/home/gerelateerde-slide4.png" alt="foto van oogschaduw pallet, summer solstice organic eye shadow palette">
                 <h3>Summer Solstice Organic Eye Shadow Palette</h3>
                 <p>Ere Perez</p>
                 <p>&euro;59,50</p>
             </article>
+            <button id="vorigegerelateerd" aria-label="previousslide"> &#8592; </button>
+            <button id="volgendegerelateerd" aria-label="nextslide"> &#8594; </button>
         </section>
 
         <section>
             <h2>Journal</h2>
-            <article>
+            <article class="carousel-journal visible-journal">
                 <img src="images/home/womanofnourished.png" alt="">
                 <h3>Nourished Journal</h3>
                 <p>Woman Of Nourished | Lois Kruidenier</p>
                 <a>Read more</a>
             </article>
-            <article>
+            <article class="carousel-journal">
                 <img src="images/home/journal-slide1.png" alt="">
                 <h3>Nourished Journal</h3>
                 <p>Woman Of Nourished | inspirerende vrouwen</p>
                 <a>Read more</a>
             </article>
-            <article>
+            <article class="carousel-journal">
                 <img src="images/home/journal-slide2.png" alt="">
                 <h3>Nourished Journal</h3>
                 <p>Krijg een stralende zomer tan</p>
                 <a>Read more</a>
             </article>
-            <article>
+            <article class="carousel-journal">
                 <img src="images/home/journal-slide3.png" alt="">
                 <h3>Nourished Journal</h3>
                 <p>Hoe kom ik van mijn strea af</p>
                 <a>Read more</a>
             </article>
+            <button id="vorigejournal" aria-label="previousslide"> &#8592; </button>
+            <button id="volgendejournal" aria-label="nextslide"> &#8594; </button>
         </section>
         <section>
             <h2>Volg ons op instagram</h2>
@@ -184,32 +175,64 @@
                 <script async src="//www.instagram.com/embed.js"></script>
             </article>
         </section>
-        <section>
-
-                <form>
-                    
+        <section class="newsletter">
+            <div>
+                <h3>Nieuwsbrief</h3>
+                <p>Schrijf je in voor onze nieuwsbrief en ontvang Nourished updates.</p>
+                <form method="post" action="#">
+                    <input type="email" placeholder="Je email adres">
+                    <button type="submit" name="commit">&#8594;</button>
                 </form>
+            </div>
         </section>
+
 
     </main>
     <footer>  
-           
-        <ul>
-            <li>Pagina's</li>
-            <li>Friends of Nourished Rewards </li>
-            <li>Wishlist</li>
-            <li>Journal</li>
-            <li>Shop</li>
-            <li>About Us</li>
-        </ul>
-        <ul>
-            <li>Help Desk</li>
-            <li>Contact</li>
-            <li>PR aanvragen</li>
-            <li>Privacy Policy</li>
-            <li>Algemene Voorwaarden</li>
-            <li>Verzenden & Retourneren</li>
-        </ul>
-    </footer>
+        <div>
+            <h3>Pagina's</h3>
+            <ul>
+                <li>Pagina's</li>
+                <li>Friends of Nourished Rewards </li>
+                <li>Wishlist</li>
+                <li>Journal</li>
+                <li>Shop</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Help Desk</h3>
+            <ul>
+                <li>Help Desk</li>
+                <li>Contact</li>
+                <li>PR aanvragen</li>
+                <li>Privacy Policy</li>
+                <li>Algemene Voorwaarden</li>
+                <li>Verzenden & Retourneren</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Follow us</h3>
+            <ul>
+                <!--links naar facebook etc-->
+            </ul>
+        </div>
+        <div>
+            <h3>Betaalmethode</h3>
+            <ul>
+                <!--plaatjes betaalmethode-->
+            </ul>
+        </div>
+        <div>
+            <h3>Taal</h3>
+            <button>poep</button>
+            <div>
+                <a href="#">NL</a>
+                <a href="#">ENG</a>
+            </div>
+        </div>
 
+    </footer>
+    <script src='script.js'></script>
 </body>
+</html>
