@@ -308,6 +308,22 @@ header a{
 }
 
 
+header a:visited{
+    color:#545353;
+    font-style: italic;
+    background-color: #f7f0e4;
+}
+
+header a:hover{
+    font-weight: 800;
+}
+
+header a:active{
+    color:#545353;
+    background-color: #f7f0e4;
+}
+
+
 header article:last-of-type{
     position:absolute;
     left:25em;
@@ -315,7 +331,7 @@ header article:last-of-type{
 
 }
 
-.punt {
+header article:nth-of-type(2) span {
     display: inline-block;
     cursor: pointer;
     margin:0 0.5em;
@@ -326,7 +342,7 @@ header article:last-of-type{
 }
   
 
-.punt:hover {
+header article:nth-of-type(2) span:hover {
     height: 2em;
     width: 2em;
 }
